@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unbenanntes Dokument</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tabelle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="Text.html">Text</a></li>
+                    <li><a href="Listen.html">Listen</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+        <div class="container">
+            <h2>Tabelle</h2>
+             <table>
+                 <thead>
+                     <td>Vorname</td>
+                     <td>Nachname</td>
+                     <td>Geburtsdatum</td>
+                     <td>Anrede</td>
+                 </thead>
+                 <tr>
+                     <td>Max</td>
+                     <td>Muster</td>
+                     <td>01.01.1988</td>
+                     <td>Herr</td>
+                 </tr>
+                 
+                 <tfoot>
+                     <td>1</td>
+                     <td>2</td>
+                     <td>3</td>
+                     <td>4</td>
+                 </tfoot>
+             </table>
+            
+            <hr />
+            
+            <h2>Tabellenüberschriften</h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <th scope="col">Samstag</th>
+                    <th scope="col">Sonntag</th>
+                </tr>
+                <tr>
+                    <th scope="row">Verkaufte Eintrittskarten</th>
+                    <td>120</td>
+                    <td>135</td>
+                </tr>
+                <tr>
+                    <th scope="row">Einnahmen insgesamt:</th>
+                    <td>$600</td>
+                    <td>$675</td>
+                </tr>
+            </table>
+            
+            <hr />
+            
+            <h2>Spalten zusammenfassen</h2>
+            <table class="stundenplan">
+                <tr>
+<!--                    th*5-->
+                    <th></th>
+                    <th>9 Uhr</th>
+                    <th>10 Uhr</th>
+                    <th>11 Uhr</th>
+                    <th>12 Uhr</th>
+                </tr>
+                <tr>
+<!--                    th+td*3-->
+                    <th>Montag</th>
+                    <td rowspan="2" colspan="2">Erdkunde</td>
+                    <td rowspan="2">Kunst</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+<!--                    th+td*2-->
+                    <th>Dienstag</th>
+                    <td>Hauswirtschaft</td>
+                </tr>
+            </table>
+            
+            
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            test
+        </div>
+    </footer>
+</body>
+</html>

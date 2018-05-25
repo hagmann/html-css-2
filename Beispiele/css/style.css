@@ -1,0 +1,141 @@
+/* CSS Document */
+
+html, body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 20px 0;
+    overflow: auto;
+}
+
+main figure {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main img {
+    max-width: 400px;
+    /* Bild zentrieren */
+
+/*    float: left;*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: blue;
+}
+
+header {
+    background: black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+div>p {
+    color: red;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    background: #284997;
+    padding: 20px 10px;
+    color: white;
+}
+
+
+label {
+    display: block;
+    color: blue;
+    font-weight: bold;
+    font-family: Verdana;
+    padding-bottom: 3px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    border: 2px solid #c2c2c2;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 400px;
+}
+
+input:focus {
+    border-color: blue;
+    outline: 0;
+}
+
+
+.box {
+    background: red;
+    height: 300px;
+    width: 300px;
+}
+
+.box p {
+    background: blue;
+}
+
+
+/* unbesuchter Link */
+a {
+    color: green;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Link besucht */
+a:visited {
+    color: red;
+}
+
+/* Hover Effekt */
+a:hover {
+    color: #000;
+}
+
+/* Aktiver Klick */
+a:active {
+    color: blue;
+}
+
+.linkbox {
+    width: 100px;
+    height: 100px;
+    background: #C2D000;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.linkbox:hover {
+    background: red;
+    width: 200px;
+}
+
+
+
+
+

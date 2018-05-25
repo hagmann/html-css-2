@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unbenanntes Dokument</title>
+    <style>
+    
+        span {
+            display: block;
+            height: 4px;
+            width: 50px;
+            background: black;
+            margin-top: 30px;
+        }
+        
+        span:before, span:after {
+            content: '';
+            background: black;
+            height: 4px;
+            width: 50px;
+            display: block;
+            position: relative;
+        }
+        
+        span:before {
+            top: -15px;
+        }
+        
+        span:after {
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <span></span>
+    
+</body>
+</html>

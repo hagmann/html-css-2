@@ -1,0 +1,24 @@
+/* CSS Document */
+
+h1 {
+    color: rgb(50,100,150);
+}
+
+p {
+    color: red;
+}
+
+section {
+    background: red;
+    padding: 10px;
+}
+
+.box {
+    background: rgba(50,50,50, 0.5);
+    padding: 10px;
+}
+
+.box p {
+    color: green;
+}
+
